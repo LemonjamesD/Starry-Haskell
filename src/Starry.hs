@@ -1,5 +1,6 @@
 module Starry (World) where
 
+import Data.Typeable (TypeRep)
 import Data.HashMap.Strict (HashMap)
 import Starry.Components (Component)
 import Starry.Resources (Resource)
